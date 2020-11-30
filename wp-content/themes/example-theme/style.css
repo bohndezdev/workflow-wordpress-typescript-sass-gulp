@@ -1,0 +1,14 @@
+/*
+Theme Name: Example Gulp theme
+Theme URI: 
+Author: Boris Hernández <bohndez.dev@gmail.com>
+Author URI: https://medium.com/@bohndez.dev
+Description: Example theme for use with Gulp, Typescript and Sass workflow
+Version: 1.0.0
+License: MIT
+License URI: 
+Tags: 
+Text Domain: Example Webpack theme
+*/
+
+@import url('assets/css/styles.min.css');

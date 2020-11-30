@@ -1,0 +1,14 @@
+{
+  "theme_route"        : "./wp-content/themes/example-theme",
+
+  "script_source_file" : "./src/ts/main.ts",
+  "script_bundle_name" : "bundle.min.js",
+  "script_dest"        : "./wp-content/themes/example-theme/assets/js",
+
+  "style_source_file"  : "./src/scss/main.scss",
+  "style_bundle_name"  : "styles.min.css",
+  "style_dest"         : "./wp-content/themes/example-theme/assets/css",
+
+  "images_src"         : "./src/img/*",
+  "images_dest"        : "./wp-content/themes/example-theme/assets/img"
+}
