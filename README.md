@@ -13,9 +13,9 @@ You need some dependencies installed for develop:
 
 ## How to start
 1. Get the whole files of this proyect and place them in the root of your wordpress proyect. Take care with the hidden files:
-  - .babelrc
-  - browserslistrc
-  - .gitignore (You can replace it if you want)
+   * .babelrc
+   * browserslistrc
+   * .gitignore (You can replace it if you want)
 
 For __".git"__ file. You might want to have your own, I recomend you not copy it.
 
