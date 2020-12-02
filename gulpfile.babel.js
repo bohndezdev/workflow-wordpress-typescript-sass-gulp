@@ -72,7 +72,7 @@ gulp.task("typescript", gulp.series( () => {
 
 gulp.task('styles_scss', () => {
   return gulp
-    .src(CONFIG.style_source_file)
+    .src(CONFIG.style_main_file)
     .pipe(sass({
       outputStyle: 'compressed'
     }))
@@ -133,5 +133,5 @@ gulp.task('watch', () => {
   // gulp.watch(CONFIG.theme_route, gulp.series('views', 'browsersync'))
 
   gulp.watch(CONFIG.script_source_file, gulp.series('typescript'))
-  gulp.watch(CONFIG.style_source_file, gulp.series('styles_scss'))
+  gulp.watch(CONFIG.style_listen_files, gulp.series('styles_scss'))
 })
